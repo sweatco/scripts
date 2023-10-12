@@ -14,5 +14,6 @@ cargo clippy --all \
   -A clippy::missing-errors-doc \
   -A clippy::module-inception \
   -A clippy::missing-panics-doc \
+  -A clippy::must-use-candidate \
   \
   -D warnings
